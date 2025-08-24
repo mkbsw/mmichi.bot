@@ -1,6 +1,6 @@
 import discord
 import asyncio
-TOKEN = "MTQwODgxNjQ1MDAyNTgyMDI1MA.G20F7h.fRuN8bhhJGqxFjkH5GniIeLcuw5Z7g_DFNFXO0"   #トレーダー
+TOKEN = ""   #トレーダー
 client = discord.Client(intents=discord.Intents.all())
 
 
@@ -54,6 +54,7 @@ async def on_message(message):
 async def on_member_join(member):
     channel = client.get_channel(1408578827856248905) # Welcome channel.
     await channel.send(f'ようこそ{member.mention}様 \n ここは何でも有りの場でございます。 \n どうぞご存分にお楽しみください')
+
 
 
 
