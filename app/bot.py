@@ -1,6 +1,6 @@
 import discord
 import asyncio
-TOKEN = "MTQwODg2MDI4NTc1Mzc1NzgxNg.GJ3u_J.eANvlUBVolkCrUerEn9hVVQEbPjjC-FVokbqdk" #ボブ
+TOKEN = "" #ボブ
 client = discord.Client(intents=discord.Intents.all())
 
 
@@ -18,4 +18,5 @@ async def on_message(message):
 
 
    
+
 client.run(TOKEN)
